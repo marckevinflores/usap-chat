@@ -3,8 +3,7 @@ import { connect } from 'socket.io-client';
 import { Join } from './pages/Join';
 import { Chat } from './pages/Chat';
 import { useState } from 'react';
-
-const socket = connect('http://localhost:4000'); 
+const socket = connect(process.env.REACT_APP_API_URL as string); 
 type Route = {
   path: string;
   element: JSX.Element;
