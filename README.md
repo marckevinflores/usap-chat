@@ -2,6 +2,8 @@
 
 A Real-time chat application with chat rooms. Users can enter specific chat rooms based on their interests or discussions, enabling multiple people to engage in real-time conversations within each room.
 
+[Demo](https://usap-chat.netlify.app)
+  
 ### Technologies & Templates Used
 | Technologies | Usage                                      |
 | ----------------- | ------------------------------------------------ |
